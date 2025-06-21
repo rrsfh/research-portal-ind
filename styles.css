@@ -1,0 +1,88 @@
+/* General body styling for font and background color */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+  }
+  
+  /* Styling for the main content container */
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for main headings */
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* General form styling */
+  form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label styling for form inputs */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* Input field styling */
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Button styling for form actions */
+  button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Utility class to hide elements visually and from layout */
+  .hidden {
+    display: none;
+  }
+  
+
+  /* Ensure the error message is prominently displayed */
+.error-message {
+  color: red;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  margin-top: 100px;
+  display: none; /* Hidden by default */
+}
+
+/* Hide everything else by default */
+.container {
+  display: none;
+}
+
+/* Show the container only if there are no errors */
+.container.visible {
+  display: block;
+}
